@@ -1,0 +1,1 @@
+import{o,k as u,aD as _,f as t,C as g,Z as i,$ as l,L as d,h as p,X as m}from"./B-Bnt9SC.js";function E(n,r){let s=null,f=t;var a;if(t){s=p;for(var e=m(document.head);e!==null&&(e.nodeType!==g||e.data!==n);)e=i(e);if(e===null)l(!1);else{var y=i(e);e.remove(),d(y)}}t||(a=document.head.appendChild(o()));try{u(()=>r(a),_)}finally{f&&(l(!0),d(s))}}export{E as h};

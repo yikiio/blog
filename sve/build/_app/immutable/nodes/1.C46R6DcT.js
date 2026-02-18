@@ -1,0 +1,1 @@
+import{b as t,f as a}from"../chunks/Tjq4F4Zo.js";import"../chunks/mNIq85or.js";import{N as e}from"../chunks/B-Bnt9SC.js";var m=a("<h1>Something went wrong</h1> <p>Sorry, this page failed to load.</p>",1);function i(o){var r=m();e(2),t(o,r)}export{i as component};
