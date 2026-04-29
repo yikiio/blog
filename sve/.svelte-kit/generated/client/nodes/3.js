@@ -1,1 +1,0 @@
-export { default as component } from "../../../../src/routes/2024/12/02/hello-world/+page.svelte";
