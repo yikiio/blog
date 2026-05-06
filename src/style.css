@@ -1,0 +1,135 @@
+/* @import url('./reset.css'); */
+
+.container {
+  max-width: 980px;
+  margin: 90px auto 75px;
+  padding: 0 15px;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
+/* ---------- 导航栏样式 ----------*/
+nav {
+  margin-bottom: 64px;
+}
+
+.nav-icon {
+  width: 16px;
+  height: 16px;
+}
+
+.nav-title {
+  display: inline-block;
+  margin-bottom: 10px;
+  font-size: 45px;
+  line-height: 53px;
+  color: #333;
+}
+
+.nav-bar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.nav-menu {
+  font-size: 20px;
+  line-height: 24px;
+  color: #333;
+  margin-left: 24px;
+}
+
+.nav-menu:first-child {
+  margin-left: 0;
+}
+
+.nav-menu.z-active {
+  position: relative;
+}
+
+#nav .nav-menu.z-active::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -4px;
+  height: 2px;
+  background-color: #333;
+}
+
+#nav .nav-icn {
+  margin-right: 15px;
+  line-height: 24px;
+}
+
+#nav .nav-icn:last-child {
+  margin-right: 0;
+}
+
+#footer::after {
+  content: "";
+  display: block;
+  height: 0;
+  visibility: hidden;
+  clear: both;
+}
+
+#footer {
+  margin-top: 80px;
+  font-size: 14px;
+  line-height: 22px;
+  opacity: 0.8;
+  color: #333;
+}
+
+#footer .copyright {
+  float: right;
+}
+
+.post-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 100px;
+  margin: 40px 0;
+  background-color: white;
+  color: #333;
+}
+
+.post-img {
+  width: 320px;
+  height: 240px;
+  margin-right: 40px;
+  background-color: #f8f8f8;
+}
+
+.post-title {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 40px;
+}
+
+.post-title:hover {
+  opacity: 1;
+  color: #f0534e;
+}
+
+.post-card .abstract {
+  font-size: 16px;
+  line-height: 30px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+time {
+  font-size: 16px;
+  line-height: 30px;
+  opacity: 0.5;
+}
